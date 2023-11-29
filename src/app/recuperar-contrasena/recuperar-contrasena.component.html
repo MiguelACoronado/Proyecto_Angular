@@ -1,0 +1,16 @@
+<form class="principal">
+    <h2>Cambiar Contraseña</h2>
+
+    <div class="newPass" id="newPass">
+        <input #newPass type="text" id="newPass" name="newPass" required>
+        <br><label for="newPass">Nueva Contraseña:</label>
+    </div>
+    <br>
+    <div class="confirmPass" id="confirmContra">
+        <input #newPass type="text" id="confirmPass" name="confirmPass" required>
+        <br><label for="confirmPass">Confirmar Contraseña:</label>
+    </div>
+    <br>
+    <button (click)="navegarLogin()" id="btn">Login</button>
+    <button (click)="mostrarStorage()" id="btn">Mostrar Storage</button>
+</form>

@@ -1,0 +1,45 @@
+
+    <form action="c" method="post" id="formulario-login">
+        <h2>Register</h2>
+
+        <div class="name" id="cont">
+            <input #miName type="text" id="name" name="name" required>
+            <label for="name">Nombre:</label>
+        </div>
+        <br>
+        <div class="lastname" id="cont">
+            <input #miLastname type="text" id="lastname" name="lastname" required>
+            <label for="lastname">Apellido:</label>
+        </div>
+        <br>
+        <div class="mail" id="cont">
+            <input #miMail type="text" id="mail" name="mail" required>
+            <label for="mail">Correo:</label>
+        </div>
+        <br>
+        <div class="cel" id="cont">
+            <input #miCel type="text" id="cel" name="cel" required>
+            <label for="cel">Telefono:</label>
+        </div>
+        <br>
+        <div class="usu" id="cont">
+            <input #miUsu type="text" id="username" name="username" required>
+            <label for="username">Usuario:</label>
+        </div>
+        <br>
+        <div class="pass" id="cont">
+            <input #miPassword type="password" id="password" name="password" required>
+            <label for="password">Contraseña:</label>
+        </div>
+        <br>
+        <div class="btns">
+        <button id="btn" (click)="registrarDatos()">Registrar</button>
+        <button (click)="navegarLogin()" id="btn">LOGIN</button>
+        </div>
+    </form>
+
+
+<h1>{{registrar_Datos}}</h1>
+
+
+

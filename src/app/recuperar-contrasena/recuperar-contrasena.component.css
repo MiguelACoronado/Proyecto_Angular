@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    background: #6ba415;
+    padding: 40px;
+    margin-top: 130px;
+}
+
+.principal h2{
+    font-size: 30px;
+    margin: 20px;
+}
+#newPass{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#confirmPass{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#newPass input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid green;
+    padding: 5px;
+    background: rgb(107, 164, 21);
+}
+
+#confirmPass input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid green;
+    padding: 5px;
+    background: rgb(107, 164, 21);
+}
+
+#btn{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    border: none;
+    background: green;
+    color: black;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#btn:hover{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    border: none;
+    background: rgb(1, 99, 1);
+    color: rgb(255, 255, 255);
+}
